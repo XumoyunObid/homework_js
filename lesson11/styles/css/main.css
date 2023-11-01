@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+body #trafficLight {
+  background-color: rgb(76, 76, 76);
+  margin: 0 auto;
+  width: 400px;
+  height: 700px;
+  border-radius: 50px;
+  margin-block: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+body #trafficLight #redLight {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-top: 15px solid rgb(37, 37, 37);
+}
+body #trafficLight #yellowLight {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-top: 15px solid rgb(37, 37, 37);
+}
+body #trafficLight #greenLight {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-top: 15px solid rgb(37, 37, 37);
+}
+body #trafficLight .red {
+  background: red;
+}
+body #trafficLight .yellow {
+  background: yellow;
+}
+body #trafficLight .green {
+  background: green;
+}
+
+body {
+  background-color: black;
+}
+body div {
+  width: 600px;
+  border: 10px solid chartreuse;
+  padding: 150px 35px;
+  margin: 80px auto;
+  border-radius: 50px;
+  box-shadow: 25px 25px 0px chartreuse;
+}
+body div #_clock {
+  font-size: 50px;
+  color: chartreuse;
+  font-family: "Orbitron";
+  text-align: center;
+}
+
+div#color {
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 50px;
+  box-shadow: none;
+}
+div#color p#colors {
+  font-size: 150px;
+}/*# sourceMappingURL=main.css.map */

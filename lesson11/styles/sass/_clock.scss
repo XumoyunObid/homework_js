@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+
+  div {
+    width: 600px;
+    border: 10px solid chartreuse;
+    padding: 150px 35px;
+    margin: 80px auto;
+    border-radius: 50px;
+    box-shadow: 25px 25px 0px chartreuse;
+
+
+    #_clock {
+      font-size: 50px;
+      color: chartreuse;
+      font-family: "Orbitron";
+      text-align: center;
+    }
+  }
+}
