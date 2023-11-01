@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 
-body {
+body#tl_body {
   background-color: cornflowerblue;
 }
-body #trafficLight {
+body#tl_body #trafficLight {
   background-color: rgb(76, 76, 76);
   margin: 0 auto;
   width: 400px;
@@ -20,38 +20,38 @@ body #trafficLight {
   align-items: center;
   justify-content: center;
 }
-body #trafficLight #redLight {
+body#tl_body #trafficLight #redLight {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   border-top: 15px solid rgb(37, 37, 37);
 }
-body #trafficLight #yellowLight {
+body#tl_body #trafficLight #yellowLight {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   border-top: 15px solid rgb(37, 37, 37);
 }
-body #trafficLight #greenLight {
+body#tl_body #trafficLight #greenLight {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   border-top: 15px solid rgb(37, 37, 37);
 }
-body #trafficLight .red {
+body#tl_body #trafficLight .red {
   background: red;
 }
-body #trafficLight .yellow {
+body#tl_body #trafficLight .yellow {
   background: yellow;
 }
-body #trafficLight .green {
+body#tl_body #trafficLight .green {
   background: green;
 }
 
-body {
+body#clock_body {
   background-color: black;
 }
-body div {
+body#clock_body div {
   width: 600px;
   border: 10px solid chartreuse;
   padding: 150px 35px;
@@ -59,7 +59,7 @@ body div {
   border-radius: 50px;
   box-shadow: 25px 25px 0px chartreuse;
 }
-body div #_clock {
+body#clock_body div #_clock {
   font-size: 50px;
   color: chartreuse;
   font-family: "Orbitron";
@@ -71,6 +71,8 @@ div#color {
   border-radius: 50px;
   padding: 50px;
   box-shadow: none;
+  width: 600px;
+  margin: 150px auto;
 }
 div#color p#colors {
   font-size: 150px;
