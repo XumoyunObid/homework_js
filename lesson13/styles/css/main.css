@@ -12,6 +12,9 @@ body.countdown p#timer {
 body.magicEight {
   background-color: midnightblue;
 }
+body.magicEight h2 {
+  color: #fff;
+}
 body.magicEight .circle {
   width: 600px;
   height: 600px;
